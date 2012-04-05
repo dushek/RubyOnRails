@@ -1,4 +1,4 @@
-1333576134
+1333646633
 Application	/home/dush/GIT/RubyOnRail/demo/depot/config/application.rb	  class Application 
 ApplicationController	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/dush/GIT/RubyOnRail/demo/depot/app/helpers/application_helper.rb	module ApplicationHelper
@@ -18,6 +18,7 @@ down	/home/dush/GIT/RubyOnRail/demo/depot/db/migrate/20120404163841_create_produ
 edit	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/products_controller.rb	  def edit
 index	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/products_controller.rb	  def index
 new	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/products_controller.rb	  def new
+new_product	/home/dush/GIT/RubyOnRail/demo/depot/test/unit/product_test.rb	  def new_product(image_url)
 show	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/products_controller.rb	  def show
 test_homepage	/home/dush/GIT/RubyOnRail/demo/depot/test/performance/browsing_test.rb	  def test_homepage
 up	/home/dush/GIT/RubyOnRail/demo/depot/db/migrate/20120404163841_create_products.rb	  def self.up
