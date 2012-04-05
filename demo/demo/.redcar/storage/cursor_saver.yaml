@@ -1,0 +1,11 @@
+--- 
+cursor_positions: 
+  - :path: app/views/say/hello.html.erb
+    :cursor_offset: 65
+    :timestamp: 2012-04-03 23:50:45 +02:00
+    :selection_offset: 115
+    :block_selection_mode: false
+  - :path: app/views/say/goodbye.html.erb
+    :cursor_offset: 108
+    :timestamp: 2012-04-03 23:56:56 +02:00
+files_to_retain: 0

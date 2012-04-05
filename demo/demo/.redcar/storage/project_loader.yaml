@@ -1,0 +1,4 @@
+--- 
+open_files: 
+  - app/views/say/hello.html.erb
+  - app/views/say/goodbye.html.erb
