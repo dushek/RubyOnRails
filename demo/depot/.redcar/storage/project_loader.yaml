@@ -1,3 +1,18 @@
 --- 
 open_files: 
-  - app/views/products/_form.html.erb
+  - app/models/line_item.rb
+  - app/models/cart.rb
+  - app/views/carts/show.html.erb
+  - app/views/store/index.html.erb
+  - app/controllers/store_controller.rb
+  - app/views/line_items/show.html.erb
+  - app/controllers/application_controller.rb
+  - app/controllers/carts_controller.rb
+  - app/controllers/line_items_controller.rb
+  - app/controllers/products_controller.rb
+  - app/views/carts/index.html.erb
+  - app/views/carts/new.html.erb
+  - app/views/line_items/index.html.erb
+  - app/views/carts/edit.html.erb
+  - app/views/carts/_form.html.erb
+  - app/models/product.rb
