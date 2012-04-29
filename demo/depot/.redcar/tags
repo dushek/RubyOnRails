@@ -1,4 +1,5 @@
-1333913187
+1334527075
+AddQuantityToLineItems	/home/dush/GIT/RubyOnRail/demo/depot/db/migrate/20120409070408_add_quantity_to_line_items.rb	class AddQuantityToLineItems 
 Application	/home/dush/GIT/RubyOnRail/demo/depot/config/application.rb	  class Application 
 ApplicationController	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	/home/dush/GIT/RubyOnRail/demo/depot/app/helpers/application_helper.rb	module ApplicationHelper
@@ -9,6 +10,7 @@ CartsController	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/carts_contr
 CartsControllerTest	/home/dush/GIT/RubyOnRail/demo/depot/test/functional/carts_controller_test.rb	class CartsControllerTest 
 CartsHelper	/home/dush/GIT/RubyOnRail/demo/depot/app/helpers/carts_helper.rb	module CartsHelper
 CartsHelperTest	/home/dush/GIT/RubyOnRail/demo/depot/test/unit/helpers/carts_helper_test.rb	class CartsHelperTest 
+CombineItemsInCart	/home/dush/GIT/RubyOnRail/demo/depot/db/migrate/20120409072837_combine_items_in_cart.rb	class CombineItemsInCart 
 CreateCarts	/home/dush/GIT/RubyOnRail/demo/depot/db/migrate/20120406164855_create_carts.rb	class CreateCarts 
 CreateLineItems	/home/dush/GIT/RubyOnRail/demo/depot/db/migrate/20120406170401_create_line_items.rb	class CreateLineItems 
 CreateProducts	/home/dush/GIT/RubyOnRail/demo/depot/db/migrate/20120404163841_create_products.rb	class CreateProducts 
@@ -30,6 +32,7 @@ StoreControllerTest	/home/dush/GIT/RubyOnRail/demo/depot/test/functional/store_c
 StoreHelper	/home/dush/GIT/RubyOnRail/demo/depot/app/helpers/store_helper.rb	module StoreHelper
 StoreHelperTest	/home/dush/GIT/RubyOnRail/demo/depot/test/unit/helpers/store_helper_test.rb	class StoreHelperTest 
 TestCase	/home/dush/GIT/RubyOnRail/demo/depot/test/test_helper.rb	class ActiveSupport::TestCase
+add_product	/home/dush/GIT/RubyOnRail/demo/depot/app/models/cart.rb	  def add_product(product_id)
 change	/home/dush/GIT/RubyOnRail/demo/depot/db/migrate/20120406164855_create_carts.rb	  def change
 change	/home/dush/GIT/RubyOnRail/demo/depot/db/migrate/20120406170401_create_line_items.rb	  def change
 create	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/products_controller.rb	  def create
@@ -40,6 +43,8 @@ destroy	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/products_controller
 destroy	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/carts_controller.rb	  def destroy
 destroy	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/line_items_controller.rb	  def destroy
 down	/home/dush/GIT/RubyOnRail/demo/depot/db/migrate/20120404163841_create_products.rb	  def self.down
+down	/home/dush/GIT/RubyOnRail/demo/depot/db/migrate/20120409070408_add_quantity_to_line_items.rb	  def self.down
+down	/home/dush/GIT/RubyOnRail/demo/depot/db/migrate/20120409072837_combine_items_in_cart.rb	  def self.down
 edit	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/products_controller.rb	  def edit
 edit	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/carts_controller.rb	  def edit
 edit	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/line_items_controller.rb	  def edit
@@ -56,7 +61,11 @@ show	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/products_controller.rb
 show	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/carts_controller.rb	  def show
 show	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/line_items_controller.rb	  def show
 test_homepage	/home/dush/GIT/RubyOnRail/demo/depot/test/performance/browsing_test.rb	  def test_homepage
+total_price	/home/dush/GIT/RubyOnRail/demo/depot/app/models/line_item.rb	  def total_price
+total_price	/home/dush/GIT/RubyOnRail/demo/depot/app/models/cart.rb	  def total_price
 up	/home/dush/GIT/RubyOnRail/demo/depot/db/migrate/20120404163841_create_products.rb	  def self.up
+up	/home/dush/GIT/RubyOnRail/demo/depot/db/migrate/20120409070408_add_quantity_to_line_items.rb	  def self.up
+up	/home/dush/GIT/RubyOnRail/demo/depot/db/migrate/20120409072837_combine_items_in_cart.rb	  def self.up
 update	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/products_controller.rb	  def update
 update	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/carts_controller.rb	  def update
 update	/home/dush/GIT/RubyOnRail/demo/depot/app/controllers/line_items_controller.rb	  def update
