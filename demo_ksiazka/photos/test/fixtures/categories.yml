@@ -1,0 +1,29 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+category_1:
+  id: 1
+  name: Wszystkie
+category_2:
+  id: 2
+  parent_id: 1
+  name: Ludzie
+category_3:
+  id: 3
+  parent_id: 2
+  name: Zwierzęta
+category_4:
+  id: 4
+  parent_id: 3
+  name: Miejsca
+category_5:
+  id: 5
+  parent_id: 4
+  name: Przedmioty
+category_6:
+  id: 6
+  parent_id: 5
+  name: Przyjaciele
+category_7:
+  id: 7
+  parent_id: 6
+  name: Rodzina
